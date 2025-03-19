@@ -50,6 +50,8 @@ class SmartphoneModel : Smartphone
 class Program{
     static void Main(){
         
+        Console.WriteLine("Текст для комита с новым названием");
+        
         //Test
         Console.WriteLine("Test");
         SmartphoneModel phone1 = new SmartphoneModel("Iphone", "12", 100);
